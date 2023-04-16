@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MiniGameBag : MonoBehaviour
 {
@@ -16,7 +17,8 @@ public class MiniGameBag : MonoBehaviour
     public GameObject basePanel;
     public GameObject bagPanel;
 
-   
+    public Image baseHome;
+    public Sprite base1;
 
 
     private void Start()
@@ -81,6 +83,7 @@ public class MiniGameBag : MonoBehaviour
         new WaitForSeconds(0.5f);
         bagPanel.SetActive(false);
         basePanel.SetActive(true);
+        baseHome.sprite = base1;
       
     }
 
