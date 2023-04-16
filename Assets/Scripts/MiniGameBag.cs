@@ -16,6 +16,8 @@ public class MiniGameBag : MonoBehaviour
     public GameObject basePanel;
     public GameObject bagPanel;
 
+   
+
 
     private void Start()
     {

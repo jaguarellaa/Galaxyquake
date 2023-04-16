@@ -23,21 +23,21 @@ public class ObjectMovement : MonoBehaviour
 
     private void Update()
     {
-        // Move the object
-        transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+        //// Move the object
+        //transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
 
-        // Check if the object hits the boundary and return to the starting point
-        if (transform.position.x > boundaryRight  transform.position.x < boundaryLeft
-            transform.position.y > boundaryTop || transform.position.y < boundaryBottom);
-        {
-            transform.position = startPosition;
+        //// Check if the object hits the boundary and return to the starting point
+        //if (transform.position.x > boundaryRight  transform.position.x < boundaryLeft;
+        //    transform.position.y > boundaryTop || transform.position.y < boundaryBottom);
+        //{
+        //    transform.position = startPosition;
 
-            // Move to the next scene when the object reaches the end of the boundary
-            if (SceneManager.sceneCountInBuildSettings > SceneManager.GetActiveScene().buildIndex + 1)
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            }
-        }
+        //    // Move to the next scene when the object reaches the end of the boundary
+        //    if (SceneManager.sceneCountInBuildSettings > SceneManager.GetActiveScene().buildIndex + 1)
+        //    {
+        //        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //    }
+        //}
     }
 }
 
