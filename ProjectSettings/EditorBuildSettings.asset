@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: "Assets/Scenes/u\u0131.unity"
     guid: 61157c2c0a52c544a8f3ccd7ef19a7a4
   - enabled: 1
+    path: Assets/Scenes/uzay.unity
+    guid: 9ad3c6f14eff52e4aaf8c40efb870482
+  - enabled: 1
     path: Assets/Scenes/Base.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ev.unity
+    guid: 75a35c563ef60d34e904d5cbb5712409
+  - enabled: 1
+    path: Assets/Scenes/market.unity
+    guid: 61f631c7858d8e14789d0b37e5a981d3
+  - enabled: 1
+    path: Assets/Scenes/END.unity
+    guid: 452a4e55c43fdd94aa21e52958a22143
   m_configObjects: {}
